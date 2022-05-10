@@ -11,9 +11,9 @@ int main (void)
 		_exit(0);
 	}
 	else
-		for (l=0; l<5; l++) {
-			printf("Parent of Samsonov. My parant pid = %d\n", getppid());
-			sleep(2*10+1);
+		for (l=0; l<(2*10+1); l++) {
+			printf("Parent of Samsonov. My parent pid = %d\n", getppid());
+			sleep(1);
 		}
 	return 0;
 }
